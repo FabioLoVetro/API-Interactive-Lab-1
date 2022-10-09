@@ -9,7 +9,7 @@ namespace API_Interactive_Lab_1.Controllers
         [HttpGet]
         public string Get()
         {
-            return "";
+            return "Welcome to the Drinks API!";
         }
     }
 }
