@@ -4,9 +4,9 @@ namespace API_Interactive_Lab_1.Controllers
 {
     [ApiController]
     //use the name of the controller itself
-    //[Route("[controller]")]
     //[Route("Noodles")]
-    //[Route("")]
+    [Route("[controller]")]
+    [Route("")]
     [Route("/")]
     public class HomeController : ControllerBase
     {
