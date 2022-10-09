@@ -12,7 +12,7 @@ namespace API_Interactive_Lab_1.Tests.Controllers
             // ARRANGE - we set up everything needed for our test
             string expectedContent = "It's time to drink something";
 
-            var controller = new CocktailController();
+            var controller = new CocktailsController();
             // ACT - we perform the test
             var result = controller.Get();
             // ASSERT - we compare the result to the expected result
