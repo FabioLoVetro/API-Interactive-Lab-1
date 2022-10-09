@@ -3,7 +3,9 @@
 namespace API_Interactive_Lab_1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    //use the name of the controller itself
+    //[Route("[controller]")]
+    [Route("Noodles")]
     public class HomeController : ControllerBase
     {
         [HttpGet]
